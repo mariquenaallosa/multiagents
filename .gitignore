@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 .atl/
+
+# Third-party corpus (see data/sources.md)
+data/raw/
