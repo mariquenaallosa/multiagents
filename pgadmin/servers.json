@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "multiagents",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "rag",
+      "Username": "app",
+      "SSLMode": "prefer"
+    }
+  }
+}
