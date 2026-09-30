@@ -1,0 +1,44 @@
+[
+  {
+    "id": "q1",
+    "question": "What are the three types of blobs in Azure Blob Storage?",
+    "relevant_docs": ["raw/azure-blob-storage.md"],
+    "expected_facts": ["block blobs", "append blobs", "page blobs"]
+  },
+  {
+    "id": "q2",
+    "question": "What is the maximum duration of a single AWS Lambda function invocation?",
+    "relevant_docs": ["raw/aws-lambda.md"],
+    "expected_facts": ["up to 15 minutes"]
+  },
+  {
+    "id": "q3",
+    "question": "What consistency does Amazon S3 provide for PUT and DELETE requests?",
+    "relevant_docs": ["raw/aws-s3.md"],
+    "expected_facts": ["strong read-after-write consistency"]
+  },
+  {
+    "id":"q4",
+    "question": "What kind of databases is DynamoDB?",
+    "relevant_docs":["raw/aws-dynamodb.md"],
+    "expected_facts":["serverless","fully managed"]
+  },
+  {
+    "id":"q5",
+    "question": "What are the stages of the development lifecycle in Azure Functions?",
+    "relevant_docs":["raw/azure-functions.md"],
+    "expected_facts":["Code", "develop and debug", "deploy", "monitor"]
+  },
+  {
+    "id": "q6",
+    "question": "Where on AWS can I archive rarely accessed data at the lowest cost?",
+    "relevant_docs": ["raw/aws-s3.md"],
+    "expected_facts": ["Glacier Instant Retrieval", "Glacier Flexible Retrieval", "Glacier Deep Archive"]
+  },
+  {
+    "id": "q7",
+    "question": "What multi-region availability SLA do Azure Cosmos DB and Amazon DynamoDB global tables offer?",
+    "relevant_docs": ["raw/azure-cosmos-db.md", "raw/aws-dynamodb.md"],
+    "expected_facts": ["99.999%"]
+  }
+]
